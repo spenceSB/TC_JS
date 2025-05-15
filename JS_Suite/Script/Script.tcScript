@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="httpsRequestBodyText" key="{2F14A591-89BB-4F57-8396-F3C3F251ABE5}" path="httpsRequestBodyText.js" />
+	</children>
+</Root>
