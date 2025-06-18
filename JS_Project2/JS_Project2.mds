@@ -1,38 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
-		<child name="NameMapping" key="{96BBFAB3-DEFE-46AC-B8C6-33D3C8A9E0CA}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
-		<child name="Script" key="{11E2C30D-BA42-4C8B-A6FC-199028B0FB70}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
-		<child name="KeywordTests" key="{CD7A5DE6-8DF2-4D46-BB62-11D9A3D30FA6}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
-		<child name="Events" key="{5C00F992-C600-4833-AB7E-2AED739E5956}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
+		<child name="Script" key="{E4C59BBE-FAA6-409B-9784-C486553FB91F}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{D97455D5-2F00-4352-B65C-CE340E3988B0}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
-	<testItems key="{FC62D811-C298-4DAD-B38C-2B002DDE8EFF}" version="14">
+	<testItems key="{8A0FC735-FC0A-44E7-B7BE-85466D8C8285}" version="14">
 		<children>
-			<testItem name="Group1" key="{2002447D-CE84-4035-960B-6E5BED01701B}" group="True" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<children>
-					<testItem name="https_test" key="{EA8D0E67-274D-4FD0-B534-8E570427DB90}" group="False" parallel="False" enabled="True" load="False" testMoniker="{2F14A591-89BB-4F57-8396-F3C3F251ABE5}httpGetRequest" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="LogTest" key="{94E3BC6A-9B69-4E1A-936B-8E66B154DAE7}" group="False" parallel="False" enabled="True" load="False" testMoniker="{002419A4-AAE7-46AF-8FE0-B1D6B1EB8000}logMessage" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="ProjectTestItem1" key="{4FBD5195-5545-4DE4-8333-F4E78B73F758}" group="False" parallel="False" enabled="False" load="False" testMoniker="{002419A4-AAE7-46AF-8FE0-B1D6B1EB8000}LogPropertyConfig" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="LogMessage" key="{2F1834AF-6675-4859-8FEB-78323EAE69F8}" group="False" parallel="False" enabled="True" load="False" testMoniker="{095EBDF7-9224-4529-A34C-C03460DDA735}myTest" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{D934F0B7-3327-436E-8FED-17A86371114E}" />
-	<settings key="{FD26CDF5-EF79-4979-AA9C-12494A32D41A}">
+	<variables key="{5D7C6AFB-FC18-4DF2-8145-4BD52B667C59}" />
+	<settings key="{37D88087-357C-411A-AF30-65C49988FC2B}">
 		<settingsVersion value="15.75" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -54,12 +37,12 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
-		<setting name="AzureDevOps_CollectionID" type="5" value="{D45D3617-0959-41DE-A7E3-AE98679EC1E2}" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/1b676525-566b-40ee-85e8-ba9fe7c0040d" />
-		<setting name="AzureDevOps_ServerName" type="5" value="https://dev.azure.com/seanoneil0713" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="AzureRepoTest" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
-		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/seanoneil0713" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
 		<setting name="BitBar_APIKey" type="5" value="" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
@@ -720,11 +703,11 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{86087FBF-E409-4F7A-A2E0-EB0BD0F75E76}" />
+	<analysis key="{59124DB6-8A47-4DCE-B3E0-18F9ACC2872F}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{72E46089-5DA6-4B54-828D-D086F46CDCE5}">
+	<issueTracking key="{41ED24D8-E57C-4D6A-B603-97E73C26DE7B}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{152CF55B-3D8E-401B-9AE3-DA194D58E862}">
 	<children>
-		<child name="JS_Suite" key="{4AC16225-18B2-4772-BFB7-2210CFEEB7A8}" path="JS_Suite\JS_Suite.mds" />
+		<child name="JS_Project" key="{4AC16225-18B2-4772-BFB7-2210CFEEB7A8}" path="JS_Suite\JS_Project.mds" />
+		<child name="JS_Project2" key="{A496DEA8-489A-4E7B-8520-53359DB47704}" path="JS_Project2\JS_Project2.mds" />
 	</children>
 	<testItems key="{B544B71C-CE3B-4160-A53D-7F8917A735A7}">
 		<children>
 			<testItem key="{4AC16225-18B2-4772-BFB7-2210CFEEB7A8}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{A496DEA8-489A-4E7B-8520-53359DB47704}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{741A0C9C-C99E-4FA2-ABD7-FE642478D82E}" />

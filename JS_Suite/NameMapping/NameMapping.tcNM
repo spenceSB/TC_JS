@@ -3,6 +3,45 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A2C8D148-8DF6-4C23-8B88-BCE28D31C13C}">
+				<TypeInfo Item0="{EBF2F5C8-78E5-4124-9848-FBD87F842E7B}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="LogiOverlay" Key="{C4DB9224-9734-4EE9-9606-6B97B8E78DAB}">
+						<TypeInfo Item0="{77FF0D87-DA65-4650-8C86-181C49E10F13}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="LogiOverlay" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MainWindow" Key="{3F6E1816-442A-4B2E-9476-03CBA4EE6A75}">
+								<Image FileName="-2145630565" Left="0" Top="0" Right="175" Bottom="175" />
+								<TypeInfo Item0="{46E30C21-CF70-4EF9-9B23-53D9E48F7583}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="MainWindow" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="LogiOverlay" Owner="{C4DB9224-9734-4EE9-9606-6B97B8E78DAB}">
+			<Child Name="HwndSource_MainWindow" Owner="{3F6E1816-442A-4B2E-9476-03CBA4EE6A75}" />
+		</Child>
+	</LogicalNodes>
 </Root>
