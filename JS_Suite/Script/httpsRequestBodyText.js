@@ -18,7 +18,7 @@
     Log.Message(aqHttpResponse.Text); // A response body
     
     // Save the response body to a file and place it to the project folder
-    aqHttpResponse.SaveToFile(Project.Path + "body.txt");
+//    aqHttpResponse.SaveToFile(Project.Path + "body.txt");
   
   }
 }
