@@ -3,9 +3,9 @@
 function logMessage(){
   Log.Message("Passing Test")
 
-  Log.SaveResultsAs("C:\\TestResults\\Log\\LogResults2.xml", lsJUnit)
-    xmlDoc.async = false;
-  xmlDoc.load(xmlFilePath);
+//  Log.SaveResultsAs("C:\\TestResults\\Log\\LogResults2.xml", lsJUnit)
+//    xmlDoc.async = false;
+//  xmlDoc.load(xmlFilePath);
 
 }
 function LogPropertyConfig(){
